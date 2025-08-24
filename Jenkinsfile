@@ -2,7 +2,7 @@ pipeline {
   agent any
 
   environment {
-    DB_HOST = 'NAG1-LHP-N89103\SQLPOC'
+    DB_HOST = 'NAG1-LHP-N89103\\SQLPOC'
     DB_PORT = '1433'
     DB_NAME = 'mirror'
   }
