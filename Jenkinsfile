@@ -10,7 +10,7 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        git branch: 'main', url: 'https://github.com/vineet9925/Python-new-project.git'
+        git branch: 'main', url: 'file:///C:/Softwares/testrepo/Python-new-project.git'
       }
     }
 
